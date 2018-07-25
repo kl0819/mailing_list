@@ -1,0 +1,21 @@
+<head>
+  <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+  <link rel='stylesheet' href="/index.css" />
+</head>
+
+<body>
+  <div class="flex-container">
+    <div class="container">
+      <h1>
+        Mailing List</h1>
+      <p class="lead">Enter your email to join
+        <strong>
+          <%=usercount%>
+        </strong> others in receiving updates for future trips!</p>
+      <form action="/register" method="POST">
+        <input type="email" name="email" class="form" placeholder="Enter Your Email" required>
+        <button>Join Now!</button>
+      </form>
+    </div>
+  </div>
+</body>

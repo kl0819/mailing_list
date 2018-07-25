@@ -1,0 +1,28 @@
+body {
+  text-align: center;
+  text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
+  font-family: 'Roboto', sans-serif;
+  color: rg(66,69, 86);
+  height: 100%;
+  background-image: url(https://previews.123rf.com/images/everst/everst1605/everst160500016/58406784-man-traveler-avec-concept-sac-à-dos-de-randonnée-voyage-lifestyle-montagnes-sur-les-vacances-d-aventu.jpg);
+  background-size: cover;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+h1 {
+  margin: 0;
+  font-size: 50px;
+  line-height: 400px;
+  font-weight: 100;
+}
+
+p {
+  margin: 0;
+  font-size: 50px;
+}
